@@ -1,0 +1,95 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: url(assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width:60vw;
+    height:90vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 30px auto;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 20px;
+}
+
+.logo img{
+    display: block;
+    margin: 0 auto;
+    width: 240px;
+}
+h1{
+    
+    text-align: center;
+    color:#00DD00;
+}
+p{
+    font-size: 17px;
+    font-weight: 300;
+    margin: 5px 0px;
+}
+p.distance:before{
+    content: "\27FC";
+}
+header ul{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #00DD00;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 10px;
+    
+}
+header ul li button{
+    height: 22px;
+    padding: 0px 10px 0px;
+}
+main{
+    padding-top: 27px;
+}
+main ul{
+    list-style-type: square;
+    list-style-position: inside;
+
+
+}
+main ul ::marker{
+    color: gray;
+    
+}
+main ul li{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+main ul li span{
+    font-weight: 600;
+    margin-left: -20px;
+}
+.chargebar{
+    height: 30px;
+    border-radius: 5px;
+}
+.charstatus1{
+    width: 350px;
+    background-color: yellow;
+   
+}
+.charstatus2{
+    width: 600px;
+    background-color: greenyellow;
+}
+.charstatus3{
+    width: 150px;
+    background-color: red;
+}
